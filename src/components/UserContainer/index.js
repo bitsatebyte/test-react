@@ -15,9 +15,7 @@ class UserContainer extends Component {
   componentDidMount() {
     // fetch data here
     const res = axios.get('https://gorest.co.in/public-api/users');
-    console.log(res);
     res.then(d => {
-      console.log(d)
       const data = d.data.data;
       this.setState({ data : data });
     });

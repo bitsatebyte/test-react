@@ -1,10 +1,10 @@
 import './App.css';
-import MainLayout from './components/MainLayout/';
+import UserContainer from './components/UserContainer/';
 
 function App() {
   return (
     <div className="app">
-      <MainLayout />
+      <UserContainer />
     </div>
   );
 }
